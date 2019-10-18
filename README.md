@@ -14,7 +14,12 @@ distance depending on the string metric used and the program will search the tre
 
 It was developed under MacOS Mojave version 10.14.6 and g++ compiler version 4.2.1 
 
-## makes 
+## Use
+
+Type make in the command line to compile the program. See below for detailed functions of the included makefile. Feel free to 
+also compile the program by yourself. Start the program by typing its name and the name of the wordlist, choose the string 
+metric (see https://en.wikipedia.org/wiki/String_metric for more infos) and type string to be searched on with a given edit 
+distance.
 
 * make -- > compiles the program and stores .out file in /bin
 * make docs -- > writes doxygen-HTML-file for documentation
